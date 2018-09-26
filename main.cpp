@@ -10,7 +10,8 @@ int main() {
     // 欧几里得最大公约数算法
     int left, right;
     cout << "type in two positive integers plz:\n";
-    cin >> left >> right;
+    cin >> left;
+    cin >> right;
     cout << "the greatest common divisor of " << left << " and " << right << " is " << euclidAlg(left, right) << ".\n";
 
     return 0;
